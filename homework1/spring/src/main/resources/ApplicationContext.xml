@@ -7,10 +7,12 @@
     <bean id="zoo" class="test.Zoo">
         <constructor-arg ref="cat"/>
         <constructor-arg ref="dog"/>
+        <constructor-arg ref="duck"/>
     </bean>
 
     <bean id="listener" class="test.event.AppListener"/>
 
     <bean id="cat" class="test.Cat"/>
     <bean id="dog" class="test.Dog"/>
+    <bean id="duck" class="test.Duck"/>
 </beans>
